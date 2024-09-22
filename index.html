@@ -42,7 +42,8 @@
 
     <script>
         document.getElementById('requestButton').addEventListener('click', () => {
-            fetch('http://localhost:8000/api/request', {
+            fetch('https://cors-backend.vercel.app', {
+            // fetch('http://localhost:8000/api/request', {
                 method: 'GET'
             })
             .then(response => {
